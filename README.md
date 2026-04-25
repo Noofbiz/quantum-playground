@@ -18,6 +18,12 @@ Then, you can activate the environment with:
 conda activate quantum-playground
 ```
 
+Now you can export the enviornment as a jupyter kernel:
+
+```bash
+ipython kernel install --user --name=quantum-playground-kernel
+```
+
 ## Running the code
 
 The code is organized in Jupyter notebooks in the folders within. You can run

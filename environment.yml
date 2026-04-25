@@ -3,3 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - qiskit
+  - matplotlib
+  - qiskit[visualization]
+  - ipykernel
+  - jupyterlab
